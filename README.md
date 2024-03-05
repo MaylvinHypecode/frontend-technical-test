@@ -1,8 +1,24 @@
+# Context
+
+At Cliq Digital we provide streaming services that bundle movies & series, music, audiobooks, sports and games to consumers globally.
+
+Your job is to create a new interface on our streaming platform that displays a list of movies and the details of a movie when clicking on it.
+
+You will have **2 hours**.
+
+You will have to send us your source code hosted on GitHub.
+
+In addition to your code, a `README.md` file explaining your thought process and your choices would be appreciated.
+
+# Exercise
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, fork this project.
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -18,8 +34,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -29,8 +43,32 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## What is expected
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- To render a list of movies, you can be inspired by [themoviedb.org](https://www.themoviedb.org/) and our streaming platform [spottley.com](https://spottley.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Display different carousels with the most popular series and TV shows / or the different movies by genre (animation, comedy, adventure, etc...)
+
+- Filter these contents by popularity, release date, note, etc...
+
+- To view details about a movie by clicking on it
+
+- As your application can be used by thousands of users, make sure to provide some robust safety guards. Some `any` types have been left there on purpose. You will be asked to type the application.
+
+- Feel free to propose any ameliorations to our code, UX, architecture, security, code quality....
+
+## API
+
+The request can be passed using:
+API key (v3): `92b418e837b833be308bbfb1fb2aca1e`
+
+Documentation:
+https://developers.themoviedb.org/3/
+
+HTTP request example:
+
+```
+    GET
+    https://api.themoviedb.org/3/discover/movie?api_key=92b418e837b833be308bbfb1fb2aca1e&language=en-
+US&sort_by=popularity.desc&page=1&timezone=America/New_York&include_null_first_air_dates=false
+```

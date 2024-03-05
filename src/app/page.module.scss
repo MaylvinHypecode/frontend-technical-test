@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.carousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container {
+  overflow: auto;
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 5px;
+}
