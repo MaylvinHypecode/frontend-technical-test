@@ -2,13 +2,13 @@
 
 At Cliq Digital we provide streaming services that bundle movies & series, music, audiobooks, sports and games to consumers globally.
 
-Your job is to create a new interface on our streaming platform that displays a list of movies and the details of a movie when clicking on it.
+Your job is to create a new interface on our streaming platform that displays **a list of movies and the details of a movie when clicking on it.**
 
 You will have **2 hours**.
 
 You will have to send us your source code hosted on GitHub.
 
-In addition to your code, a `README.md` file explaining your thought process and your choices would be appreciated.
+In addition to your code, a `README.md` file explaining your thought process and your choices would be appreciated for us to comprehend how and why you made some choices
 
 # Exercise
 
@@ -47,13 +47,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 - To render a list of movies, you can be inspired by [themoviedb.org](https://www.themoviedb.org/) and our streaming platform [spottley.com](https://spottley.com/)
 
-- Display different carousels with the most popular series and TV shows / or the different movies by genre (animation, comedy, adventure, etc...)
+- Display another carousel than the existing one with the most popular series and TV shows / or the different movies by genre (animation, comedy, adventure, etc...)
 
 - Filter these contents by popularity, release date, note, etc...
 
 - To view details about a movie by clicking on it
 
-- As your application can be used by thousands of users, make sure to provide some robust safety guards. Some `any` types have been left there on purpose. You will be asked to type the application.
+- As your application can be used by thousands of users, make sure to provide some robust safety guards. Some `any` types have been left there on purpose. Please type the any that have been left in the application.
+
+- Feel free to upgrade, modify, adapt any existing code
 
 - Feel free to propose any ameliorations to our code, UX, architecture, security, code quality....
 
